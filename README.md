@@ -4,6 +4,7 @@ This boilerplate contains all the code to create a mail api, spam-protection inc
 
 ## Functions
 - Recieve POST-requests (from forms, other api's, ...)
+- Send an email to an address of your chosing
 - Free [Askimet spam-protection (free for non-commercial purposes)](https://akismet.com/signup/?plan=developer)
 
 ## Setup
@@ -23,7 +24,7 @@ This boilerplate contains all the code to create a mail api, spam-protection inc
 |```SMTP_PORT```            | yes                       | 465                   | The port of your mail-server
 |```ASKIMET_KEY```          | no                        | 1234567890            | [Get a Askimet api-key](https://akismet.com/signup/?plan=developer) to enable spam-protection
 |```DOMAIN```               | yes, when using askimet   | www.example.com       | The domain from where you will recieve POST-requests (this is only a description for Askimet stats)
-|```RECIEVER_ENDS_WITH```   | yes                       | @example.com          | This property will check that the recievers email (yours) will end with the given string
+|```RECIEVER_ENDS_WITH```   | yes                       | @example.com          | This property will check that the recievers email (probably yours) will end with the given string
 
 #### 3. Add your .env file to .gitignore if this is not the case
 ```
