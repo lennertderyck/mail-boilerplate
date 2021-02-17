@@ -1,0 +1,35 @@
+{
+    "name": "err.lennertderyck.be",
+    "version": "1.0.0",
+    "description": "",
+    "main": "api/index.js",
+    "scripts": {
+        "start": "vercel dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lennertderyck/err.lennertderyck.be.git"
+    },
+    "keywords": [],
+    "author": "Lennert De Ryck",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lennertderyck/err.lennertderyck.be/issues"
+    },
+    "homepage": "https://github.com/lennertderyck/err.lennertderyck.be#readme",
+    "dependencies": {
+        "airtable": "^0.10.0",
+        "akismet-api": "^5.1.0",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "imapflow": "^1.0.51",
+        "mail": "^0.2.3",
+        "moment": "^2.29.1",
+        "nodemailer": "^6.4.17",
+        "showdown": "^1.9.1",
+        "string-strip-html": "^8.2.1",
+        "striptags": "^3.1.1"
+    }
+}
